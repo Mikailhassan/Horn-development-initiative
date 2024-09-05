@@ -3,35 +3,130 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
+    <title>Horn Development Initiative Kenya</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            color: #333;
-        }
-        .container {
+        .placeholder-img {
+            background-color: #e2e2e2; /* Light gray background */
+            border: 1px solid #ccc; /* Border for better visibility */
+            width: 100%;
+            height: 200px; /* Placeholder height */
             text-align: center;
+            line-height: 200px; /* Center text vertically */
+            color: #888; /* Light gray text color */
         }
-        h1 {
-            font-size: 3em;
-            margin-bottom: 0.5em;
-        }
-        p {
-            font-size: 1.5em;
+        .logo-img {
+            width: 100px; /* Adjust width as needed */
+            height: auto;
         }
     </style>
 </head>
-<body>
-    <div class="container">
-        <h1>Horn development initiative kenya is Coming Soon!</h1>
-        <p>HONDI KENYA INITIATIVE. Stay tuned!</p>
-        <P>The app will be soon out</P>
-    </div>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Navbar -->
+    <header class="bg-green-600 p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <img src="logo.jpeg" alt="Logo" class="logo-img">
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#home" class="text-white text-lg">Home</a></li>
+                    <li><a href="#about" class="text-white text-lg">About Us</a></li>
+                    <li><a href="#focus" class="text-white text-lg">Areas of Focus</a></li>
+                    <li><a href="#donate" class="text-white text-lg">Donate</a></li>
+                    <li><a href="#projects" class="text-white text-lg">Projects Completed</a></li>
+                    <li><a href="#contact" class="text-white text-lg">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-green-500 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold">Changing Lives for the Better</h1>
+            <p class="mt-4 text-lg">Dedicated to fostering a thriving and resilient Northern Kenya through innovative and sustainable development practices that empower communities and enhance quality of life.</p>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="container mx-auto">
+            <h2 class="text-4xl font-bold text-center text-green-600">About Us</h2>
+            <p class="mt-6 text-center text-lg max-w-2xl mx-auto">
+                At Horn Development Initiative Kenya, we are devoted to cultivating a just and equitable society by equipping communities with necessary resources, advancing educational initiatives, and providing steadfast support, all aimed at enabling individuals and families to prosper and grow
+            </p>
+        </div>
+    </section>
+
+    <!-- Areas of Focus Section -->
+    <section id="focus" class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-green-600">Our Focus Areas</h2>
+            <div class="mt-10 flex justify-center space-x-6">
+                <div class="bg-white shadow-lg p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold">Poverty Alleviation</h3>
+                    <p class="mt-4 text-lg">We are committed to reducing poverty by deploying targeted programs that integrate sustainable development principles, ensuring that our efforts lead to effective, long-term solutions and tangible improvements in the lives of those we serve.</p>
+                </div>
+                <div class="bg-white shadow-lg p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold">Education</h3>
+                    <p class="mt-4 text-lg">We are committed to providing future generations with access to exceptional quality education, ensuring they are equipped with the knowledge and skills necessary to excel and become leaders in their communities and beyond.</p>
+                </div>
+                <div class="bg-white shadow-lg p-6 rounded-lg">
+                    <h3 class="text-2xl font-bold">Sustainable Development</h3>
+                    <p class="mt-4 text-lg">We are dedicated to ensuring that resources are distributed equitably, facilitating long-term growth and development across communities, and enabling sustainable progress and opportunities for everyone..</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Donation Section -->
+    <section id="donate" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-green-600">Support Our Cause</h2>
+            <p class="mt-4 text-lg">Your contributions help us make a difference. Support our initiatives by donating today.</p>
+            <div class="mt-6">
+                <div class="placeholder-img">
+                    <span>Donation Placeholder</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Completed Section -->
+    <section id="projects" class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-green-600">Projects Completed</h2>
+            <p class="mt-4 text-lg">See the impact of our work through the projects we've completed.</p>
+            <div class="mt-6 flex justify-center space-x-6">
+                <div class="placeholder-img">
+                    <span>Project Placeholder 1</span>
+                </div>
+                <div class="placeholder-img">
+                    <span>Project Placeholder 2</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold text-green-600">Contact Us</h2>
+            <p class="mt-4 text-lg">Feel free to reach out with any inquiries or support needs.</p>
+            <form class="mt-6 max-w-lg mx-auto">
+                <input type="text" placeholder="Your Name" class="w-full p-4 mb-4 border rounded-lg text-lg">
+                <input type="email" placeholder="Your Email" class="w-full p-4 mb-4 border rounded-lg text-lg">
+                <textarea placeholder="Your Message" class="w-full p-4 mb-4 border rounded-lg text-lg"></textarea>
+                <button type="submit" class="bg-green-600 text-white py-2 px-6 rounded-lg text-lg">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 p-4 text-center text-white">
+        <p>&copy; 2024 Horn Development Initiative Kenya. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
