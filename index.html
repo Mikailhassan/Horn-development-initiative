@@ -6,36 +6,21 @@
     <title>Horn Development Initiative Kenya</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <style>
-        .placeholder-img {
-            background-color: #e2e2e2; /* Light gray background */
-            border: 1px solid #ccc; /* Border for better visibility */
-            width: 100%;
-            height: 200px; /* Placeholder height */
-            text-align: center;
-            line-height: 200px; /* Center text vertically */
-            color: #888; /* Light gray text color */
-        }
-        .logo-img {
-            width: 100px; /* Adjust width as needed */
-            height: auto;
-        }
-    </style>
 </head>
 <body class="bg-gray-100 text-gray-900">
 
     <!-- Navbar -->
     <header class="bg-green-600 p-4 shadow-lg">
         <div class="container mx-auto flex justify-between items-center">
-            <img src="logo.jpeg" alt="Logo" class="logo-img">
+            <img src="logo.jpeg" alt="Logo" class="h-12 lg:h-16">
             <nav>
-                <ul class="flex space-x-6">
-                    <li><a href="#home" class="text-white text-lg">Home</a></li>
-                    <li><a href="#about" class="text-white text-lg">About Us</a></li>
-                    <li><a href="#focus" class="text-white text-lg">Areas of Focus</a></li>
-                    <li><a href="#donate" class="text-white text-lg">Donate</a></li>
-                    <li><a href="#projects" class="text-white text-lg">Projects Completed</a></li>
-                    <li><a href="#contact" class="text-white text-lg">Contact</a></li>
+                <ul class="flex space-x-6 text-sm sm:text-base lg:text-lg">
+                    <li><a href="#home" class="text-white">Home</a></li>
+                    <li><a href="#about" class="text-white">About Us</a></li>
+                    <li><a href="#focus" class="text-white">Areas of Focus</a></li>
+                    <li><a href="#donate" class="text-white">Donate</a></li>
+                    <li><a href="#projects" class="text-white">Projects Completed</a></li>
+                    <li><a href="#contact" class="text-white">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -44,17 +29,17 @@
     <!-- Hero Section -->
     <section id="home" class="bg-green-500 text-white py-20">
         <div class="container mx-auto text-center">
-            <h1 class="text-5xl font-bold">Changing Lives for the Better</h1>
-            <p class="mt-4 text-lg">Dedicated to fostering a thriving and resilient Northern Kenya through innovative and sustainable development practices that empower communities and enhance quality of life.</p>
+            <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">Empowering Northern Kenya through Sustainable Development</h2>
+            <p class="mt-4 text-base sm:text-lg md:text-xl lg:text-2xl">Dedicated to fostering a thriving and resilient Northern Kenya through innovative, sustainable development practices.</p>
         </div>
     </section>
 
     <!-- About Us Section -->
     <section id="about" class="py-20 bg-white">
-        <div class="container mx-auto">
-            <h2 class="text-4xl font-bold text-center text-green-600">About Us</h2>
-            <p class="mt-6 text-center text-lg max-w-2xl mx-auto">
-                At Horn Development Initiative Kenya, we are devoted to cultivating a just and equitable society by equipping communities with necessary resources, advancing educational initiatives, and providing steadfast support, all aimed at enabling individuals and families to prosper and grow
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-green-600">About Us</h2>
+            <p class="mt-6 text-base sm:text-lg lg:text-xl">
+                Horn Development Initiative Kenya is dedicated to building a just and equitable society by empowering communities with essential resources, comprehensive education, and unwavering support.
             </p>
         </div>
     </section>
@@ -62,19 +47,19 @@
     <!-- Areas of Focus Section -->
     <section id="focus" class="py-20 bg-gray-100">
         <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold text-green-600">Our Focus Areas</h2>
-            <div class="mt-10 flex justify-center space-x-6">
-                <div class="bg-white shadow-lg p-6 rounded-lg">
-                    <h3 class="text-2xl font-bold">Poverty Alleviation</h3>
-                    <p class="mt-4 text-lg">We are committed to reducing poverty by deploying targeted programs that integrate sustainable development principles, ensuring that our efforts lead to effective, long-term solutions and tangible improvements in the lives of those we serve.</p>
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-green-600">Our Focus Areas</h2>
+            <div class="mt-10 flex flex-wrap justify-center gap-6">
+                <div class="bg-white shadow-lg p-6 rounded-lg w-full sm:w-1/2 lg:w-1/3">
+                    <h3 class="text-xl font-bold">Poverty Alleviation</h3>
+                    <p class="mt-4">We design and execute comprehensive programs focused on alleviating poverty by leveraging sustainable development practices to create long-lasting economic opportunities and improve living conditions for underserved communities.</p>
                 </div>
-                <div class="bg-white shadow-lg p-6 rounded-lg">
-                    <h3 class="text-2xl font-bold">Education</h3>
-                    <p class="mt-4 text-lg">We are committed to providing future generations with access to exceptional quality education, ensuring they are equipped with the knowledge and skills necessary to excel and become leaders in their communities and beyond.</p>
+                <div class="bg-white shadow-lg p-6 rounded-lg w-full sm:w-1/2 lg:w-1/3">
+                    <h3 class="text-xl font-bold">Education</h3>
+                    <p class="mt-4">We are committed to providing future generations with access to exceptional quality education, ensuring they are equipped with the knowledge and skills necessary to excel and become leaders in their communities and beyond.</p>
                 </div>
-                <div class="bg-white shadow-lg p-6 rounded-lg">
-                    <h3 class="text-2xl font-bold">Sustainable Development</h3>
-                    <p class="mt-4 text-lg">We are dedicated to ensuring that resources are distributed equitably, facilitating long-term growth and development across communities, and enabling sustainable progress and opportunities for everyone..</p>
+                <div class="bg-white shadow-lg p-6 rounded-lg w-full sm:w-1/2 lg:w-1/3">
+                    <h3 class="text-xl font-bold">Sustainable Development</h3>
+                    <p class="mt-4">We focus on guaranteeing that resources are accessible to all, aiming to drive sustainable and long-lasting growth while fostering an inclusive environment that supports the continued advancement of every individual.</p>
                 </div>
             </div>
         </div>
@@ -83,11 +68,11 @@
     <!-- Donation Section -->
     <section id="donate" class="py-20 bg-white">
         <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold text-green-600">Support Our Cause</h2>
-            <p class="mt-4 text-lg">Your contributions help us make a difference. Support our initiatives by donating today.</p>
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-green-600">Support Our Cause</h2>
+            <p class="mt-4 text-base sm:text-lg lg:text-xl">Your contributions help us make a difference. Support our initiatives by donating today.</p>
             <div class="mt-6">
-                <div class="placeholder-img">
-                    <span>Donation Placeholder</span>
+                <div class="bg-gray-200 h-64 flex items-center justify-center">
+                    <span class="text-gray-600">Donation Placeholder</span>
                 </div>
             </div>
         </div>
@@ -96,14 +81,14 @@
     <!-- Projects Completed Section -->
     <section id="projects" class="py-20 bg-gray-100">
         <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold text-green-600">Projects Completed</h2>
-            <p class="mt-4 text-lg">See the impact of our work through the projects we've completed.</p>
-            <div class="mt-6 flex justify-center space-x-6">
-                <div class="placeholder-img">
-                    <span>Project Placeholder 1</span>
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-green-600">Projects Completed</h2>
+            <p class="mt-4 text-base sm:text-lg lg:text-xl">See the impact of our work through the projects we've completed.</p>
+            <div class="mt-6 flex flex-wrap justify-center gap-6">
+                <div class="bg-gray-200 h-64 w-full sm:w-1/2 lg:w-1/3 flex items-center justify-center">
+                    <span class="text-gray-600">Project Placeholder 1</span>
                 </div>
-                <div class="placeholder-img">
-                    <span>Project Placeholder 2</span>
+                <div class="bg-gray-200 h-64 w-full sm:w-1/2 lg:w-1/3 flex items-center justify-center">
+                    <span class="text-gray-600">Project Placeholder 2</span>
                 </div>
             </div>
         </div>
@@ -112,13 +97,13 @@
     <!-- Contact Section -->
     <section id="contact" class="py-20 bg-white">
         <div class="container mx-auto text-center">
-            <h2 class="text-4xl font-bold text-green-600">Contact Us</h2>
-            <p class="mt-4 text-lg">Feel free to reach out with any inquiries or support needs.</p>
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-green-600">Contact Us</h2>
+            <p class="mt-4 text-base sm:text-lg lg:text-xl">Feel free to reach out with any inquiries or support needs.</p>
             <form class="mt-6 max-w-lg mx-auto">
-                <input type="text" placeholder="Your Name" class="w-full p-4 mb-4 border rounded-lg text-lg">
-                <input type="email" placeholder="Your Email" class="w-full p-4 mb-4 border rounded-lg text-lg">
-                <textarea placeholder="Your Message" class="w-full p-4 mb-4 border rounded-lg text-lg"></textarea>
-                <button type="submit" class="bg-green-600 text-white py-2 px-6 rounded-lg text-lg">Send Message</button>
+                <input type="text" placeholder="Your Name" class="w-full p-4 mb-4 border rounded-lg text-base sm:text-lg">
+                <input type="email" placeholder="Your Email" class="w-full p-4 mb-4 border rounded-lg text-base sm:text-lg">
+                <textarea placeholder="Your Message" class="w-full p-4 mb-4 border rounded-lg text-base sm:text-lg"></textarea>
+                <button type="submit" class="bg-green-600 text-white py-2 px-6 rounded-lg text-base sm:text-lg">Send Message</button>
             </form>
         </div>
     </section>
